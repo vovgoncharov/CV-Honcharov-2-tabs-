@@ -1,0 +1,90 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#navbar {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    margin-right: 20px;
+    display: flex;
+}
+.nav-brand {
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+}
+.nav-item {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    margin: 30px;
+    list-style: none;
+}
+.nav-tabs {
+    margin-bottom: 40px;
+}
+.btn-default {
+    background-color: rgb(243, 230, 47);
+    border-radius: 3px;
+    padding: 10px 10px;
+}
+.title {
+    text-align: center;
+    text-transform: uppercase;
+}
+.tabs-menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+li {
+    list-style: none;
+}
+.tab {
+    background-color: rgb(243, 230, 47);
+    border: 2px solid rgb(243, 230, 47);
+    border-radius: 3px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.active {
+    box-shadow: 0px 0px 5px 2px #000;
+}
+.own-block__text {
+    font-size: 18px;
+    color: #000;
+    font-weight: 800;
+}
+.show {
+    display: block;
+}
+.tab-content {
+    display: none;
+}
+.show {
+    display: block;
+}
+p {
+    text-align: center;
+}
+#footer-wrapper {
+    padding: 50px;
+    background-color: rgb(243, 230, 47);
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#footer-wrapper a {
+    color: #000;
+    font-weight: 800;
+    background-color: rgb(243, 230, 47);
+    text-decoration: none;
+    padding: 5px 15px;
+    box-shadow: 0px 0px 10px 1px #000;
+}
