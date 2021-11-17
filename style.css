@@ -88,3 +88,38 @@ p {
     padding: 5px 15px;
     box-shadow: 0px 0px 10px 1px #000;
 }
+@media screen and (max-width: 700px) {
+    .tabs-menu {
+        flex-direction: column;
+    }
+    .tab {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 580px) {
+    #navbar {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 20px;
+    }
+    .nav-item {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .menu {
+        flex-direction: column;
+    }
+    .menu li {
+        margin-top: 20px;
+    }
+    #footer-wrapper {
+        flex-direction: column;
+    }
+    #footer-wrapper a {
+        margin-top: 20px;
+    }
+}
